@@ -1,6 +1,47 @@
 body {
-	background-image: url("img/vintage.jpg");
 	margin: 0;
 	padding: 0;
 }
+
+header{
+
+	height:200px;
+	background-color: pink;
+	text-align: center;
+
+}
+
+button{
+	width:100px;
+	background-color: #e6ffe6;
+	border:none;
+	margin-top: 35px;
+
+}
+
+#slider{
+	width:250px;
+}
+
+#div-slider{
+	margin-top:20px;
+	width:100%;
+
+}
+
+#pictures{
+
+	width:100%;
+	text-align: center;
+
+}
+
+#pictures img{
+
+	width:150px;
+	margin:10px;
+
+
+}
+
 
