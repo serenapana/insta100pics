@@ -5,9 +5,111 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link rel='stylesheet' href='style.css' type='text/css' media='all' />
 	<link rel="stylesheet" type="text/css" href="../style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	
+	
 </head>
 <body>
+</body>
+</html>
+</head>
+<body>
+<header>
+	
+	<button class="b-all" type="button">ALL</button>
+	<button class="b-less-100" type="button">LESS THAN 100</button>
+	<button class="b-more-100" type="button">MORE THAN 100</button>
+	
+	<div id="div-slider">
+		<label for="slider" style="font-size:12px; margin-right:20px;">Likes: </label>
+		<input id="slider" type="range" min="0" max="200" value="0" oninput="outputUpdate(value)" list="volsettings"/>
+		<output for="slider" id="output">0</output>
+		<output for="slider" id="outputprova">60</output>
+			<datalist id="volsettings">
+				<option>0</option>
+				<option>20</option>
+				<option>40</option>
+				<option>60</option>
+				<option>80</option>
+				<option>100</option>
+				<option>120</option>
+				<option>140</option>
+				<option>160</option>
+				<option>180</option>
+				<option>200</option>
+			</datalist>
 
+	</div>
+
+	
+	<script>
+		// function to output the value of the slider
+	function outputUpdate(vol) {
+		document.querySelector('#output').value = vol;
+		
+		if(vol >= 0 && vol <= 20){
+			
+			document.querySelector('#outputprova').value = "hola";
+			document.getElementById('img1').style.display = "inline";
+			document.getElementById('img2').style.display = "inline";
+			document.getElementById('img3').style.display = "inline";
+			document.getElementById('img4').style.display = "inline";
+			document.getElementById('img5').style.display = "inline";
+
+			
+			
+		}else if (vol > 20 && vol <= 100){
+			document.querySelector('#outputprova').value = "it works";
+			document.getElementById('img1').style.display = "none";
+			document.getElementById('img2').style.display = "none";
+			document.getElementById('img3').style.display = "inline";
+			document.getElementById('img4').style.display = "inline";
+			document.getElementById('img5').style.display = "inline";
+
+		
+		}else if (vol > 100 && vol <= 150){
+			document.getElementById('img1').style.display = "none";
+			document.getElementById('img2').style.display = "none";
+			document.getElementById('img3').style.display = "none";
+			document.getElementById('img4').style.display = "inline";
+			document.getElementById('img5').style.display = "inline";
+	
+		
+	}else{
+	
+			document.getElementById('img1').style.display = "none";
+			document.getElementById('img2').style.display = "none";
+			document.getElementById('img3').style.display = "none";
+			document.getElementById('img4').style.display = "none";
+			document.getElementById('img5').style.display = "inline";
+	
+	
+	
+	}
+	}
+		
+
+	
+	
+	
+	</script>
+	
+	
+</header>
+	
+	
+		
+<div id="pictures">
+	
+	<img class="p-less-100" id="img1" src="img/Susie-1.jpg"/>
+	<img class="p-less-100" id="img2" src="img/Susie-2.jpg"/>
+	<img class="p-less-100" id="img3" src="img/Susie-3.jpg"/>
+	<img class="p-more-100" id="img4" src="img/Susie-4.jpg"/>
+	<img class="p-more-100" id="img5" src="img/Susie-5.jpg"/>
+	
+	
+	</div>
 
 	
 </body>
