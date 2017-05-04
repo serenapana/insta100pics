@@ -2,3 +2,17 @@ img {
 	width:304px;
 	height:auto;
 }
+
+h2 {
+	text-transform: uppercase;
+	color: black;
+	font-size: 1.5em;
+	width: 100%;
+	margin: 10px;
+}
+
+h3 {
+	color: black;
+	font-size: 1em;
+	margin: 10px;
+}
