@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel='stylesheet' href='style.css' type='text/css' media='all' />
+	<link rel="stylesheet" type="text/css" href="../style.css">
+	
+
+</head>
+<body>
+<?php include '../header.php';?>
+	
+	<h1>Big Title about the Rise of Fashion Bloggers
+</h1>
+<h2>Why not speaking about curated digital identities, about the authenticity on social media and the blurring distinction between work and leisure, and about the monetization of user engagement. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</h2>
+
+<a href="../02-home/index.php" class="full">
+</a>
+
+<?php include '../footer.php';?>
+	
+	</body>
+</html>
