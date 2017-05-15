@@ -11,13 +11,7 @@ body {
 
 }
 
-button{
-	width:100px;
-	background-color: #e6ffe6;
-	border:none;
-	margin-top: 35px;
 
-}
 
 #slider{
 	width:250px;
@@ -30,18 +24,34 @@ button{
 }
 
 #pictures{
-
 	width:100%;
 	text-align: center;
-
-}
-
-#pictures img{
-
-	width:150px;
-	margin:10px;
-
+	display: flex;
+    flex-wrap: wrap;
 
 }
 
 
+#pictures div {
+  position: relative;
+  width: 33%;
+  height: 600px;
+  float: left;
+}
+#pictures div img {
+  width: 100%;
+}
+#pictures div span w{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.hide {
+  opacity: 0.3;
+}
+
+.order {
+  order: 1;
+}
