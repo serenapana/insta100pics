@@ -1,8 +1,3 @@
-// show likes next to each pic
-function showLikes(img) {
-	$(img).after( $( "span" ).text( $(img).attr('likes') ) );
-}
-
 // update slider
 function outputUpdate(vol) {
 	document.querySelector('#output').value = vol;
@@ -17,6 +12,7 @@ function outputUpdate(vol) {
 			$(this).parent().addClass('order');
 
 		} else {
+
 			$(this).removeClass('hide');
 			$(this).siblings().remove();
 
