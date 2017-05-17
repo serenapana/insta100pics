@@ -1,0 +1,27 @@
+#pictures {
+  display: flex;
+}
+
+#pictures div {
+  position: relative;
+  width: 33%;
+  height: 600px;
+  float: left;
+}
+#pictures div img {
+  width: 100%;
+}
+#pictures div span w{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.hide {
+  opacity: 0.3;
+}
+
+.order {
+  order: 1;
+}

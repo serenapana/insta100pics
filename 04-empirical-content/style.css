@@ -1,0 +1,57 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#headerpicts{
+
+	height:200px;
+	background-color: pink;
+	text-align: center;
+
+}
+
+
+
+#slider{
+	width:250px;
+	margin-top:102px;
+}
+
+#div-slider{
+	width:100%;
+
+}
+
+#pictures{
+	width:100%;
+	text-align: center;
+	display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+#pictures div {
+  position: relative;
+  width: 33%;
+  height: 600px;
+  float: left;
+}
+#pictures div img {
+  width: 100%;
+}
+#pictures div span w{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.hide {
+  opacity: 0.3;
+}
+
+.order {
+  order: 1;
+}

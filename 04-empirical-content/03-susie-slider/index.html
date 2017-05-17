@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel='stylesheet' href='../style.css' type='text/css' media='all' />
+	<link rel="stylesheet" href="../../style.css" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	
+	
+</head>
+<body>
+</body>
+</html>
+</head>
+<body>
+		<?php include '../../header.php';?>
+
+<div id="headerpicts">
+	
+
+	
+	<div id="div-slider">
+		<label for="slider" style="font-size:12px; margin-right:20px;">Likes: </label>
+		<input type="range" id="slider" min="0" max="19344" value="0" oninput="outputUpdate(value)" list="volsettings"/>
+		<output for="slider" id="output">0</output>
+			<datalist id="volsettings">
+				<option>0</option>
+				<option>1934.4</option>
+				<option>3868.8</option>
+				<option>5803.2</option>
+				<option>7737.6</option>
+				<option>9672.4</option>
+				<option>11606.4</option>
+				<option>13540.8</option>
+				<option>15475.2</option>
+				<option>17409.6</option>
+				<option>19344</option>
+			</datalist>
+
+	</div>
+
+	
+	
+	
+</div>
+	
+	
+		
+<div id="pictures">
+	
+	
+	
+	<img class="p-less-100" id="000788" src="img/000788.jpg"/>
+	<img class="p-less-100" id="000928" src="img/000928.jpg"/>
+	<img class="p-less-100" id="001063" src="img/001063.jpg"/>
+	<img class="p-more-100" id="001184" src="img/001184.jpg"/>
+	<img class="p-more-100" id="001242" src="img/001242.jpg"/>
+	
+	<img class="p-less-100" id="001295" src="img/001295.jpg"/>
+	<img class="p-less-100" id="001341" src="img/001341.jpg"/>
+	<img class="p-less-100" id="001362-2" src="img/001362-2.jpg"/>
+	<img class="p-more-100" id="001362" src="img/001362.jpg"/>
+	<img class="p-more-100" id="001371" src="img/001371.jpg"/>
+	
+	<img class="p-less-100" id="001383" src="img/001383.jpg"/>
+	<img class="p-less-100" id="001398" src="img/001398.jpg"/>
+	<img class="p-less-100" id="001424" src="img/001424.jpg"/>
+	<img class="p-more-100" id="001450" src="img/001450.jpg"/>
+	<img class="p-more-100" id="001461" src="img/001461.jpg"/>
+	
+	<img class="p-less-100" id="001487" src="img/001487.jpg"/>
+	<img class="p-less-100" id="001500" src="img/001500.jpg"/>
+	<img class="p-less-100" id="001526" src="img/001526.jpg"/>
+	<img class="p-more-100" id="001589" src="img/001589.jpg"/>
+	<img class="p-more-100" id="001639" src="img/001639.jpg"/>
+	
+	<img class="p-less-100" id="001641" src="img/001641.jpg"/>
+	<img class="p-less-100" id="001654" src="img/001654.jpg"/>
+	<img class="p-less-100" id="001662" src="img/001662.jpg"/>
+	<img class="p-more-100" id="001680" src="img/001680.jpg"/>
+	<img class="p-more-100" id="001789" src="img/001789.jpg"/>
+	
+	<img class="p-less-100" id="001808" src="img/001808.jpg"/>
+	<img class="p-less-100" id="001883" src="img/001883.jpg"/>
+	<img class="p-less-100" id="001885" src="img/001885.jpg"/>
+	<img class="p-more-100" id="001954" src="img/001954.jpg"/>
+	<img class="p-more-100" id="001998" src="img/001998.jpg"/>
+	
+	<img class="p-less-100" id="002026" src="img/002026.jpg"/>
+	<img class="p-less-100" id="002033" src="img/002033.jpg"/>
+	<img class="p-less-100" id="002061" src="img/002061.jpg"/>
+	<img class="p-more-100" id="002081" src="img/002081.jpg"/>
+	<img class="p-more-100" id="002135" src="img/002135.jpg"/>
+	
+	<img class="p-less-100" id="002290" src="img/002290.jpg"/>
+	<img class="p-less-100" id="002384" src="img/002384.jpg"/>
+	<img class="p-less-100" id="002403" src="img/002403.jpg"/>
+	<img class="p-more-100" id="002456-2" src="img/002456-2.jpg"/>
+	<img class="p-more-100" id="002456" src="img/002456.jpg"/>
+	
+	<img class="p-less-100" id="002459" src="img/002459.jpg"/>
+	<img class="p-less-100" id="002481" src="img/002481.jpg"/>
+	<img class="p-less-100" id="002520" src="img/002520.jpg"/>
+	<img class="p-more-100" id="002553" src="img/002553.jpg"/>
+	<img class="p-more-100" id="002622" src="img/002622.jpg"/>
+	
+	<img class="p-less-100" id="002642" src="img/002642.jpg"/>
+	<img class="p-less-100" id="002650" src="img/002650.jpg"/>
+	<img class="p-less-100" id="002709" src="img/002709.jpg"/>
+	<img class="p-more-100" id="002877" src="img/002877.jpg"/>
+	<img class="p-more-100" id="002892" src="img/002892.jpg"/>
+	
+	<img class="p-less-100" id="002897" src="img/002897.jpg"/>
+	<img class="p-less-100" id="002955" src="img/002955.jpg"/>
+	<img class="p-less-100" id="003007" src="img/003007.jpg"/>
+	<img class="p-more-100" id="003071" src="img/003071.jpg"/>
+	<img class="p-more-100" id="003168" src="img/003168.jpg"/>
+	
+	<img class="p-less-100" id="003214" src="img/003214.jpg"/>
+	<img class="p-less-100" id="003238" src="img/003238.jpg"/>
+	<img class="p-less-100" id="003296" src="img/003296.jpg"/>
+	<img class="p-more-100" id="003385" src="img/003385.jpg"/>
+	<img class="p-more-100" id="003398" src="img/003398.jpg"/>
+	
+	<img class="p-less-100" id="003420" src="img/003420.jpg"/>
+	<img class="p-less-100" id="003475" src="img/003475.jpg"/>
+	<img class="p-less-100" id="003553" src="img/003553.jpg"/>
+	<img class="p-more-100" id="003658" src="img/003658.jpg"/>
+	<img class="p-more-100" id="003927" src="img/003927.jpg"/>
+	
+	<img class="p-less-100" id="003965" src="img/003965.jpg"/>
+	<img class="p-less-100" id="003969" src="img/003969.jpg"/>
+	<img class="p-less-100" id="004252" src="img/004252.jpg"/>
+	<img class="p-more-100" id="004579" src="img/004579.jpg"/>
+	<img class="p-more-100" id="004753" src="img/004753.jpg"/>
+	
+	<img class="p-less-100" id="004872" src="img/004872.jpg"/>
+	<img class="p-less-100" id="004885" src="img/004885.jpg"/>
+	<img class="p-less-100" id="004938" src="img/004938.jpg"/>
+	<img class="p-more-100" id="004975" src="img/004975.jpg"/>
+	<img class="p-more-100" id="004988" src="img/004988.jpg"/>
+	
+	<img class="p-less-100" id="004988-2" src="img/004988-2.jpg"/>
+	<img class="p-less-100" id="005082" src="img/005082.jpg"/>
+	<img class="p-less-100" id="005195" src="img/005195.jpg"/>
+	<img class="p-more-100" id="005215" src="img/005215.jpg"/>
+	
+	<img class="p-more-100" id="005727" src="img/005727.jpg"/>
+	<img class="p-less-100" id="005781" src="img/005781.jpg"/>
+	<img class="p-less-100" id="005971" src="img/005971.jpg"/>
+	<img class="p-less-100" id="006158" src="img/006158.jpg"/>
+	<img class="p-more-100" id="006302" src="img/006302.jpg"/>
+	
+	<img class="p-more-100" id="007385" src="img/007385.jpg"/>
+	<img class="p-less-100" id="007465" src="img/007465.jpg"/>
+	<img class="p-less-100" id="007900" src="img/007900.jpg"/>
+	<img class="p-less-100" id="008601" src="img/008601.jpg"/>
+	<img class="p-more-100" id="009152" src="img/009152.jpg"/>
+	
+	<img class="p-less-100" id="009155" src="img/009155.jpg"/>
+	<img class="p-more-100" id="019344" src="img/019344.jpg"/>
+	
+
+	
+	
+	</div>
+
+		<?php include '../../footer.php';?>
+
+</body>
+</html>

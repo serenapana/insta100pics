@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel='stylesheet' href='../style.css' type='text/css' media='all' />
+	<link rel="stylesheet" href="../../style.css" type="text/css">
+	<link rel="stylesheet" href="slider.css" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	
+	
+</head>
+<body>
+</body>
+</html>
+</head>
+<body>
+		<?php include '../../header.php';?>
+
+<div id="headerpicts">
+	
+	<div id="div-slider">
+		<label for="slider" style="font-size:12px; margin-right:20px;">Likes: </label>
+		<input type="range" id="slider" min="0" max="19344" value="0" oninput="outputUpdate(value)" list="volsettings"/>
+		<output for="slider" id="output">0</output>
+			<datalist id="volsettings">
+				<option>0</option>
+				<option>19344</option>
+			</datalist>
+	</div>
+	
+</div>
+	
+<div id="pictures">
+	<div class="pic"><img id="000788" likes="100" src="img/000788.jpg"/></div>
+	<div class="pic"><img id="000928" likes="2000" src="img/000928.jpg"/></div>
+	<div class="pic"><img id="001063" likes="4000" src="img/001063.jpg"/></div>
+	<div class="pic"><img id="001184" likes="6000" src="img/001184.jpg"/></div>
+	<div class="pic"><img id="001242" likes="19344" src="img/001242.jpg"/></div>
+</div>
+
+		<?php include '../../footer.php';?>
+
+</body>
+</html>
