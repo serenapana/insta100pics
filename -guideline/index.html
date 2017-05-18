@@ -14,11 +14,32 @@
 
 	<h2>Subtitle</h2>
 
-	<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+	<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.<span class="popup" onclick="myFunction()"><u>Nemo</u><span class="popuptext" id="myPopup">An interesting and informative comment appears here.</span></span> enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
 
-	<a href="#">
+	<script> // function for the popup
+	// When the user clicks on <div>, open the popup
+	function myFunction() {
+	    var popup = document.getElementById("myPopup");
+	    popup.classList.toggle("show");
+	}
+	</script>
+
+
+	<a href="#"> 
 		<div class="button">Button</div>
-	</a> 
+	</a>
+	<p></p>
+
+	<img class="img" src="../assets/img/def-ferragni.jpg">
+	<p></p>
+
+<img class="circular" src="../assets/img/susiecircle.png">
+
+	<p></p>
+	<a href="#"> 
+		<div class="more">More</div>
+	</a>
+	<p></p>
 
 </div>		
 
