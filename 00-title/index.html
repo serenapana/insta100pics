@@ -3,10 +3,17 @@
 <head> 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-	<link rel='stylesheet' href='style.css' type='text/css' media='all' />
 	<link rel="stylesheet" type="text/css" href="../style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script type="text/javascript">
+	
+</head>
+
+<body class="title">
+
+<div class="container">
+<?php include '../header.php';?>
+
+<script type="text/javascript">
 
 		$( document ).ready(function() { // when thr document is ready, starts the function
 
@@ -23,14 +30,10 @@
 			}
 		});
 	</script>
-</head>
-<body class="title">
-<?php include '../header.php';?>
-
 <h1 class="title">Fashion Instagrammers in <span id="number">100</span> Pics </h1>
 <a href="../01-intro/index.html" class="full"></a>
 
-
+</div>
 <?php include '../footer.php';?>	
 </body>
 </html>
