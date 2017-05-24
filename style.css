@@ -22,6 +22,12 @@ a {
 }
 
 
+div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
 h1, h2, p {
 	font-size: 1em;
 	color: white;
@@ -47,11 +53,10 @@ h2 {
 }
 
 h3 {
-    font-size: 1.4em;
+    font-size: 1.2em;
     color: white;
     text-align: center;
     font-family: "Times New Roman", Times, serif;
-    font-style: italic;
 }
 
 /* Popup container */
@@ -84,8 +89,6 @@ h3 {
     animation: fadeIn 1s
 }
 
-
-
 .img {
     width:100%;
     text-align: center;
@@ -94,11 +97,30 @@ h3 {
     vertical-align: middle;
     border-radius: 12px;
 }
+
+
 .circular {
-    height: 50px;
-    border-radius: 50px;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
+    height: 80px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    background-color: transparent;
+    background-position: center top;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.img-circular {
+    height: 80px;
+    position: relative;
+}
+
+.text-circular {
+    color: white;
+    margin-left: 30px;
+    margin-top: 3px;
+    position: absolute;
 }
 
 .button {
@@ -109,19 +131,50 @@ h3 {
 	line-height: 100px; /* <-- this is what you must be same height*/
   	vertical-align: middle;
   	border-radius: 12px;
+    color: black;
+    font-size: 1em;
+}
+
+.profile {
+    height: 250px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    background-color: white;
+    background-position: center top;
+    position: relative;
 }
 
 /* .more is the button to introduce each follower's slider-page */
 .more { 
-    width: 50%; 
-    height: 30px;
-    line-height: 30px;
+    position: absolute;
+    width: 171px;
+    height: 25px;
+    line-height: 25px;
     text-align: center;
-    background-color: green;
-    margin-left: 120px;
+    left: 117px;
+    top: 46px;
     vertical-align: middle;
-    border-radius: 6px;  
+    border-radius: 4px;
+    font-size: 0.8em;
+    display: block;
+    -webkit-animation: pulsate 1s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    color: white;
 }
+
+.more:hover {
+    background-color: white;
+    color: black;
+}
+
+
+@-webkit-keyframes pulsate {
+    0% {background-color: #3894ec;}
+    50% {background-color: white;}
+    100% {background-color: #3894ec;}
+}
+
 
 .full {
     display: block;
