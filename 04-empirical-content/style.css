@@ -3,7 +3,7 @@ body {
 	padding: 0;
 }
 
-#headerpicts{
+.headerpicts{
 
 	height:200px;
 	background-color: pink;
@@ -18,7 +18,7 @@ body {
 	margin-top:102px;
 }
 
-#div-slider{
+.div-slider{
 	width:100%;
 
 }

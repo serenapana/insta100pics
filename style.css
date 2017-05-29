@@ -106,7 +106,6 @@ h3 {
     border-radius: 12px;
     background-color: transparent;
     background-position: center top;
-    margin-top: 20px;
     margin-bottom: 20px;
     position: relative;
 }
@@ -136,7 +135,7 @@ h3 {
 }
 
 .profile {
-    height: 250px;
+    height: 220px;
     background-size: 100% auto;
     background-repeat: no-repeat;
     border-radius: 12px;
@@ -148,12 +147,12 @@ h3 {
 /* .more is the button to introduce each follower's slider-page */
 .more { 
     position: absolute;
-    width: 171px;
-    height: 25px;
-    line-height: 25px;
+    width: 47%;
+    height: 12%;
+    line-height: 227%;
     text-align: center;
-    left: 117px;
-    top: 46px;
+    right: 8%;
+    top: 23%;
     vertical-align: middle;
     border-radius: 4px;
     font-size: 0.8em;
@@ -182,5 +181,21 @@ h3 {
     height: 100vh;
     position: absolute;
     top: 0;
+}
 
+.gallery {
+    background-size: 100% auto;
+    position: relative;
+
+}
+
+.img-gallery {
+    width: 30%;
+    border: 1px solid #ddd;
+    padding: 3px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    background-position: center top;
+    position: relative;
 }
