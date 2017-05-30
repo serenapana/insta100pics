@@ -3,9 +3,8 @@
 <head> 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-	<link rel='stylesheet' href='../style.css' type='text/css' media='all' />
 	<link rel="stylesheet" type="text/css" href="../../style.css">
-	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="../../assets/css/flickity.css" media="screen">
 	
  
 </head>
@@ -14,33 +13,50 @@
 <div class="container">
 <?php include '../../header.php';?>
 
-<h1>Like Economy</h1>
-<h2>User Engagement (1)</h2>
+<h1>User Engagement</h1>
+<h2>Likes, Comments, Shares</h2>
+	<p>For many, what distinguishblablablablablablabla blablablablablablabla For many, what distinguish
+	blablablablablablabla
+	blablablablablablabla</p> 
+
+<h2>Influence Economy</h2>
 	<p>
 	For many, what distinguish
 	blablablablablablabla
 	blablablablablablabla</p> 
-	
-	<div>
-	IMAGE
-	</div>
-	
-
-
-<h1>Influence Economy</h1>
-<h2>User Engagement (2)</h2>
-	<p>
-	For many, what distinguish
-	blablablablablablabla
-	blablablablablablabla</p> 
-	
-	<div>
-	IMAGE
-	</div>
-
 
 	<?php include '../../footer.php';?>
 
+	
+	<!-- carousel -->
+
+	<div class="carousel"
+  	data-flickity='{ "wrapAround": true }'>
+	  <img src="../../assets/img/prova-gallery.jpg" class="carousel-cell" />
+	  <img src="../../assets/img/prova-gallery.jpg" class="carousel-cell" />
+	  <img src="../../assets/img/prova-gallery.jpg" class="carousel-cell" />
 	</div>
+
+
+<h2>Like Economy</h2>
+	<p>
+	HEART
+	For many, what distinguish
+	blablablablablablabla
+	blablablablablablabla</p> 
+
+
+</div>
+
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="../../assets/js/flickity.pkgd.min.js"></script>
+<script type="text/javascript">
+$('.main-carousel').flickity({
+  // options
+  cellAlign: 'left',
+  contain: true
+});
+</script>
+
 </body>
 </html>

@@ -4,6 +4,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="../style.css">
+	<link rel="stylesheet" href="../assets/css/flickity.css" media="screen">
+
 </head>
 
 <body> <!-- add class title to have title style -->
@@ -66,6 +68,44 @@
 	</div>
 
 
+<!-- img size full page -->
+
+	<div class="img-empirical" style="background-image:url('../assets/img/prova-gallery.jpg')">
+	</div>
+
+
+<!-- video -->
+
+	<video controls>
+
+	  <source src="../assets/img/SocialMediaVsReality_LOW.mp4" type="video/mp4">
+	  <source src="../assets/img/SocialMediaVsReality_LOW.ogg" type="video/ogg" >
+	  Your browser does not support HTML5 video.
+	 </video>
+
+	<div class="img-gif" style="background-image:url('../assets/img/likes.gif')">
+	</div>
+
+<!-- carousel -->
+
+	<div class="main-carousel">
+	  <img src="../assets/img/prova-gallery.jpg" class="carousel-cell" />
+	  <img src="../assets/img/prova-gallery.jpg" class="carousel-cell" />
+	  <img src="../assets/img/prova-gallery.jpg" class="carousel-cell" />
+	</div>
+
+
 </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="../assets/js/flickity.pkgd.min.js"></script>
+<script type="text/javascript">
+$('.main-carousel').flickity({
+  // options
+  cellAlign: 'left',
+  contain: true
+});
+</script>
+
 </body>
 </html>

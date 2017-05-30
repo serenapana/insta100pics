@@ -199,3 +199,46 @@ h3 {
     background-position: center top;
     position: relative;
 }
+
+.img-empirical {
+    height: 220px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    background-position: center;
+    position: relative;
+}
+
+.img-gif {
+    height: 170px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    background-color: white;
+    background-position: center;
+    position: relative;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    background-position: center top;
+    position: relative;
+}
+
+video::-webkit-media-controls {
+    margin-top: 5000px;
+}
+
+/* external css: flickity.css */
+
+.carousel-cell {
+    height: auto;
+    width: 100%;
+    border-radius: 12px;
+    background-position: center;
+    counter-increment: carousel-cell;
+}
