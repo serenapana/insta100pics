@@ -7,7 +7,7 @@ function outputUpdate(vol) {
 			$(this).addClass('hide');
 			$(this).siblings().remove();
 
-			$(this).after( '<span>' + $(this).attr('likes') + '</span>' );
+			$(this).after( '<p>' + $(this).attr('likes') + '</p>' );
 
 			$(this).parent().addClass('order');
 

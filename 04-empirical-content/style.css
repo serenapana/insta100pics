@@ -34,8 +34,6 @@ body {
 
 #pictures div {
   position: relative;
-  width: 33%;
-  height: 600px;
   float: left;
 }
 #pictures div img {

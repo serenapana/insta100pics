@@ -191,13 +191,14 @@ h3 {
 
 .img-gallery {
     width: 30%;
-    border: 1px solid #ddd;
     padding: 3px;
     background-size: 100% auto;
     background-repeat: no-repeat;
-    border-radius: 6px;
+    border-radius: 12px;
     background-position: center top;
     position: relative;
+	margin-top: 1px;
+    margin-bottom: -5px;
 }
 
 .img-empirical {
