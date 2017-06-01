@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel='stylesheet' href='../style.css' type='text/css' media='all' />
+	<link rel="stylesheet" type="text/css" href="../../insta100pics/style.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="../assets/css/flickity.css" media="screen">
+
+
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+	
+
+</head>
+<body>
+<?php include '../../header.php';?>
+	
+	
+<div class="container">
+	
+	
+	<!-- carousel -->
+
+	<div class="carousel"
+  	data-flickity='{ "wrapAround": true }'>
+	  <img src="../assets/img/carousel1.jpg" id="first" class="carousel-cell" />
+	  <img src="../assets/img/carousel2.jpg" id="second" class="carousel-cell" />
+	  <img src="../assets/img/carousel3.jpg" id="third" class="carousel-cell" />
+	</div>
+
+	<div>
+	<p class="pflickr">
+	
+paragraph FLICKR
+	
+	</p>
+			<div>
+	<p class="psocialmedia">
+	
+paragrapth SOCIAL MEDIA
+	
+	</p>
+				
+	<p class="pblog">
+	
+paragraph BLOG
+	
+	</p>
+		
+		</div>
+
+</div>
+
+	
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="../assets/js/flickity.pkgd.min.js"></script>
+<script type="text/javascript">
+$('.main-carousel').flickity({
+  // options
+  cellAlign: 'left',
+  contain: true
+});
+</script>
+	
+		<script>
+	
+	var firstselected = $("#first").hasClass("is-selected");
+	var secondselected = $("#second").hasClass("is-selected");
+	var thirdselected = $("#third").hasClass("is-selected");
+	
+	
+	
+	if ( firstselected == true) {
+		
+			$(".pflickr").css("display","inline");
+			$(".psocialmedia").css("display","none");
+			$(".pblog").css("display","none");
+
+
+}
+	
+		if (secondselected == true) {
+		
+			$(".pflickr").css("display","none");
+			$(".psocialmedia").css("display","inline");
+			$(".pblog").css("display","none");
+
+}
+	
+		if (thirdselected == true) {
+		
+			$(".pflickr").css("display","none");
+			$(".psocialmedia").css("display","none");
+			$(".pblog").css("display","inline");
+}
+	
+	
+	</script>
+
+	
+	
+	
+<?php include '../../footer.php';?>
+
+</body>
+	
+
+</html>

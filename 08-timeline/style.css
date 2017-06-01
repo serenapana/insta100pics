@@ -36,3 +36,34 @@ h2 {
 
 }
 
+#right {
+    width: 40%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 200;
+}
+
+#instatimeline{
+
+position:relative;
+
+
+}
+
+.pflickr{
+	display: inline;
+}
+
+.psocialmedia{
+	display: none;
+
+
+}
+
+.pblog{
+	display: none;
+
+
+}
+
