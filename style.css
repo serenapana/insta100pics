@@ -33,6 +33,12 @@ h1, h2, p {
 	color: white;
 }
 
+p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 0.9em;
+}
+
 h1 {
 	text-transform: uppercase;
  	font-style: bold;
