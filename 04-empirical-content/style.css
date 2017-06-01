@@ -5,17 +5,34 @@ body {
 
 .headerpicts{
 
-	height:200px;
-	background-color: pink;
+	height:103px;
 	text-align: center;
+
+}
+
+#output{
+ 	color:white;
+    position: absolute;
+    right: 47px;
+    top: 263px;
+
+}
+
+.heartslider{
+
+ width:16px;
+position: relative;
+ bottom: 54px;
+ left: -8px;
 
 }
 
 
 
 #slider{
-	width:250px;
-	margin-top:102px;
+	width: 277px;
+    margin-top: 64px;
+    margin-left: -20px;
 }
 
 .div-slider{
@@ -52,4 +69,12 @@ body {
 
 .order {
   order: 1;
+   margin-bottom: -51px !important;
+}
+
+.likesonpict{
+
+ position: relative;
+ top: -74px;
+
 }

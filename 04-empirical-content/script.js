@@ -7,7 +7,7 @@ function outputUpdate(vol) {
 			$(this).addClass('hide');
 			$(this).siblings().remove();
 
-			$(this).after( '<p>' + $(this).attr('likes') + '</p>' );
+			$(this).after( '<p class="likesonpict"> <img src="../like.png" style="width:16px;"/> &nbsp;' + $(this).attr('likes') + '</p>' );
 
 			$(this).parent().addClass('order');
 
