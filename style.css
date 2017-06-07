@@ -9,7 +9,8 @@ body {
 }
 
 body.title {
-	background-image: url(assets/img/vintage.jpg);
+	background-image: url(assets/img/prototype07-22.jpg);
+    background-size: 375px 667px;
 }
 
 .container {
