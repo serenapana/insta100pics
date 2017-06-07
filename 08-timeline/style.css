@@ -1,5 +1,5 @@
 body {
-	background-image: url("img/vintage.jpg");
+	/*background-image: url("img/vintage.jpg");*/
 	margin: 0;
 	padding: 0;
 }
@@ -51,18 +51,32 @@ position:relative;
 
 }
 
+.pearlyblogging{
+	
+}
+
 .pflickr{
-	display: inline;
+	
+}
+
+.ptwitter{
+
 }
 
 .psocialmedia{
-	display: none;
-
 
 }
 
-.pblog{
-	display: none;
+
+
+#timelinewrapfirst{
+	position:fixed;
+	top:0;
+	left:0;
+	z-index: 100;
+	background-color: #70B5B1;
+	height:100%;
+
 
 
 }

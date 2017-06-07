@@ -12,16 +12,16 @@ body {
 
 #output{
  	color:white;
-    position: absolute;
-    right: 47px;
-    top: 263px;
+ 	position: absolute;
+ 	top: 250px;
+ 	left: 287px;
 
 }
 
 .heartslider{
 
  width:16px;
-position: relative;
+ position: relative;
  bottom: 54px;
  left: -8px;
 
@@ -68,7 +68,6 @@ position: relative;
 }
 
 .order {
-  order: 1;
    margin-bottom: -51px !important;
 }
 
