@@ -4,6 +4,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="../../style.css">
+		<link rel="stylesheet" type="text/css" href="../style.css">
+
 	<link rel="stylesheet" href="../../assets/css/flickity.css" media="screen">
 	
  
@@ -13,22 +15,45 @@
 <div class="container">
 <?php include '../../header.php';?>
 
-<h1>User Engagement</h1>
-<h2>Likes, Comments, Shares</h2>
-	<p>For many, what distinguishblablablablablablabla blablablablablablabla For many, what distinguish
-	blablablablablablabla
-	blablablablablablabla</p> 
-
-<h2>Influence Economy</h2>
-	<p>
-	For many, what distinguish
-	blablablablablablabla
-	blablablablablablabla</p> 
-
-	<?php include '../../footer.php';?>
+<h1>Monetizing Blogs</h1>
+<h2>The Underlying Economy of Fashion Blogging</h2>
+	<div class="paragraphone">
+	<p>Underneath the glamorous runways, spectacular clothing and extravagant gifts lies the [Like button]: the digital artefact that structures online activity and reconciles sporadic and frantic data flows into measurable and quantifiable commodities. The arrival of this economy underpins the professionalization of blogging and has enabled bloggers to emerge as influential forces within the fashion industry and regulars at global fashions weeks.</br>
+	
+	<img src="../../assets/img/like.png" class="heart heartone" />
+	</p> 
+</div>
 
 	
-	<!-- carousel -->
+	<div class="paragraphtwo">
+	<p>
+“In their early years, blogs were more like zines, manned by obsessive fashion fans who got paid in the emotional currency of comments rather than agent-negotiated contracts.”</br>
+	
+	<img src="../../assets/img/like.png" class="heart hearttwo" />
+	</p> 
+
+</div>
+	
+<div class="paragraphthree">
+	<p>At the centre of this economy is the [Like button]. Fashion bloggers, similar to traditional magazines, attract lucrative sponsorships by solidifying their positions as fashion influencers. This is achieved by amassing large followings on social media, garnering exposure and generating user engagement. As a result, the Like button, along with other online metrics like Followers, Likes, Comments, establishes a bloggers’ cultural relevance and, therefore, determines, their economic bargaining clout.</br>
+	
+	
+	<img src="../../assets/img/like.png" class="heart heartthree" />
+	</p>
+</div>
+	
+
+<div class="paragraphfour">
+	<p>This quantification of sociability is what has allowed for the commercialization of digital platforms, with fashion bloggers on Instagram emerging as some of the most visible and lucrative digital workers. This monetization of user engagement functions as the entrepreneurial engine that fuels the growth of fashion bloggers, and grants them front row seats alongside Vogue and other fashion celebrities at fashion weeks.</br>
+	
+	<img src="../../assets/img/like.png" class="heart heartfour" />
+	</p>
+
+</div>
+
+
+<div class="paragraphsix">
+<p>One specific and effective strategy for Fashion Instagrammers is to appeal to the broader networking structures of social media. Usually done by collaborating with other bloggers, and then affirming this collaboration through #hashtags, these mediated relationships with other bloggers are one of the most effective ways to increase exposure and gain more followers. For this end, social media greatly facilitates this crafted friendship, where bloggers collaborating with our bloggers in continual searches for new audiences and their precious engagement.</br>
 
 	<div class="carousel"
   	data-flickity='{ "wrapAround": true }'>
@@ -36,26 +61,67 @@
 	  <img src="../../assets/img/carousel2.jpg" class="carousel-cell" />
 	  <img src="../../assets/img/carousel3.jpg" class="carousel-cell" />
 	</div>
+	
+	
+	
+	</p>
+</div>
+	
 
 
-<h2>Like Economy</h2>
-	<p>
-	HEART
-	For many, what distinguish
-	blablablablablablabla
-	blablablablablablabla</p> 
+
 
 
 </div>
+	
+		<?php include '../../footer.php';?>
+
 
 <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 <script src="../../assets/js/flickity.pkgd.min.js"></script>
 <script type="text/javascript">
-$('.main-carousel').flickity({
+$('.carousel').flickity({
   // options
   cellAlign: 'left',
   contain: true
 });
+</script>
+
+
+<script>
+
+$( ".heartone" ).click(function() {
+
+	$(".paragraphtwo").css("display","inline");
+
+});
+	
+	$( ".hearttwo" ).click(function() {
+		
+			$(".paragraphthree").css("display","inline");
+
+		
+	
+	});
+	
+	$( ".heartthree" ).click(function() {
+			$(".paragraphfour").css("display","inline");
+
+
+	
+	});
+	
+	$( ".heartfour" ).click(function() {
+
+				$(".paragraphsix").css("left","0px");
+
+	
+	});
+	
+
+
+
+
 </script>
 
 </body>

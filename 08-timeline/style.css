@@ -51,20 +51,26 @@ position:relative;
 
 }
 
+.full{
+	display:none;
+
+}
+
 .pearlyblogging{
 	
 }
 
 .pflickr{
+	display:none;
 	
 }
 
 .ptwitter{
-
+display:none;
 }
 
 .psocialmedia{
-
+display:none;
 }
 
 

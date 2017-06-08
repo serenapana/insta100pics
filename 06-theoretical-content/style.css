@@ -1,0 +1,42 @@
+.heart{
+	width:45px;
+	margin-top:16px;
+	
+
+}
+
+
+.paragraphone{
+	display:inline;
+
+}
+
+.paragraphtwo{
+	display:none;
+
+
+}
+
+.paragraphthree{
+	display:none;
+
+
+}
+
+.paragraphfour{
+	display:none;
+
+
+}
+
+.paragraphfive{
+
+	display:none;
+
+}
+
+.paragraphsix{
+	position:relative;
+	left:-500px;
+
+}
