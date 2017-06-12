@@ -16,6 +16,7 @@
   overflow: inherit;
   margin: 16px auto;
   list-style: none;
+  margin-left: 158px;
   -webkit-animation: animateHeart 2.5s infinite;
   animation: animateHeart 2.5s infinite;
 }
