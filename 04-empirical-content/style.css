@@ -68,9 +68,10 @@ left:50px;
 
 #linkstobloggers{
 
-    margin-top: 71px;
     position: relative;
     bottom: 30px;
+	width: 274px;
+    margin: 71px auto;
 
 }
 
