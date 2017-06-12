@@ -82,6 +82,7 @@ background:none;
 	float:right;
 	text-align:right; 
 	font-size:12px;
+	height:100vh;
 
 
 }
@@ -95,13 +96,13 @@ background:none;
 }
 .menu li {
 	display: block;   
-	padding: 0px 15px 7px 0; 
+	padding: 10px 15px 7px 0; 
 
 }
 .menu li:hover{
 	display: block;    
 	background:#ffffff; 
-	padding: 0px 15px 7px 0; 
+	padding: 10px 15px 7px 0; 
 
 }
 .menu ul li a { 
