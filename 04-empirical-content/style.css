@@ -13,17 +13,16 @@ body {
 #output{
  	color:white;
  	position: absolute;
- 	top: 266px;
- 	left: 245px;
+ 	right: 75px;
 
 }
 
 .heartslider{
 
  width:16px;
- position: relative;
- bottom: 54px;
- left: 9px;
+ position: absolute;
+left:50px;
+
 
 }
 
@@ -31,7 +30,7 @@ body {
 
 #slider{
 	width: 277px;
-    margin-top: 64px;
+    margin-top: 34px;
     margin-left: -20px;
 }
 
@@ -67,6 +66,24 @@ body {
   opacity: 0.3;
 }
 
+#linkstobloggers{
+
+    margin-top: 71px;
+    position: relative;
+    bottom: 30px;
+
+}
+
+.linkstoblogg{
+ 	height: 56px;
+    position: relative;
+	float:left;
+	padding-left:10%;
+
+
+
+}
+
 .order {
    margin-bottom: -52px !important;
 }
@@ -79,7 +96,10 @@ body {
 }
 
 
+.heartandnumber{
+	width:100%;
 
+}
 
 
 
