@@ -29,6 +29,8 @@
 	  <img src="../assets/img/social media.jpg" id="forth" class="carousel-cell" />
 
 	</div>
+	
+	<a class="gotohome" href=""><div class="gotohomediv"></div></a>
 
 	<div>
 	<p class="pearlyblogging">
@@ -59,7 +61,6 @@ And lastly, another important ingredient simmering in the background is the rise
 
 As bloggers began slowly trickling into runway shows during the mid 2000s, editors and publishers lost the luxury of delaying magazine releases until months after shows were completed. The rise of social media has entrenched the expectation that the latest trends, insider news and exclusive behind-the-scenes access will be shared instantaneously to satisfy digital appetites.
 						
-				<a href="../02-home/index.html" class="full"></a>
 	
 	</p>
 		
@@ -117,6 +118,8 @@ $('.main-carousel').flickity({
 			$(".pflickr").css("display","none");
 			$(".ptwitter").css("display","inline");
 			$(".psocialmedia").css("display","none");
+			$(".gotohomediv").css("display","none");
+			$(".gotohome").attr("href", "");
 }
 				
 			if (forthselected == true) {
@@ -126,9 +129,10 @@ $('.main-carousel').flickity({
 			$(".ptwitter").css("display","none");
 			$(".psocialmedia").css("display","inline");
 			$(".full").css("display","block");
-			$("button").css("display","none");
-			$(".flickity-page-dots").css("display","none");
-				
+			$(".gotohomediv").css("display","block");
+			$(".gotohome").attr("href", "../02-home/index.html");
+			
+
 
 }
 	});

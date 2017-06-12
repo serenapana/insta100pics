@@ -95,3 +95,16 @@ display:none;
 
 }
 
+.gotohomediv{
+    z-index: 1000000;
+    position: fixed;
+    top: 17px;
+    right: 0px;
+    width: 94px;
+    height: 231px;
+    display: none;
+
+
+
+}
+
