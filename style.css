@@ -9,7 +9,12 @@ body {
 }
 
 body.title {
-	background-image: url(assets/img/prototype07-22.jpg);
+	background-image: url(assets/img/prototype09-26-bis.jpg);
+    background-size: 375px 667px;
+}
+
+body.intro {
+    background-image: url(assets/img/prototype09-27.jpg);
     background-size: 375px 667px;
 }
 
