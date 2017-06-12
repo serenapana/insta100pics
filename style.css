@@ -18,6 +18,10 @@ body.intro {
     background-size: 375px 667px;
 }
 
+body.about {
+    background: #606060;
+}
+
 .container {
 	padding: 20px;
 	position: relative;
