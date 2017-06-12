@@ -2,7 +2,7 @@
 <html lang="en">
 <head> 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">	
 	<link rel='stylesheet' href='../style.css' type='text/css' media='all' />
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
@@ -10,9 +10,72 @@
 
 </head>
 <body>
-
-
-</body>
+<div id="header">
 	
+	
+<button onclick="goBack()" class="goback"><img src="../assets/img/back-arrow.png"/></button>
+
+	
+	
+  <button class="hamburger">&#9776;</button>
+  <button class="cross">&#735;</button>
+	
+	
+</div>
+	
+	<div class="menu">
+  <ul>
+	 <a href="../01-intro/index.html"><li class="bold">Introduction</li></a>
+	 <li></li>
+	<a href="../03-empirical-intro/index.html"><li class="bold">Empirical Research</li></a>
+    <a href="../04-empirical-content/03-susie-slider/index.html"><li>Susie Bubble</li></a>
+    <a href="../04-empirical-content/02-clair-slider/index.html"><li>Claartjie Rose</li></a>
+    <a href="../04-empirical-content/01-chiara-slider/index.html"><li>Chiara Ferragni</li></a>
+	<a href="#"><li>Empirical Biblio</li></a>  
+	  <li></li>  
+	<a href="../05-theoretical-intro/index.html"><li class="bold">Theorethical Analysis</li></a>
+    <a href="../06-theoretical-content/06-user%2520engagement/index.html"><li>User Engagement</li></a>
+    <a href="../06-theoretical-content/07-workvslesiure/index.html"><li>Work and Leisure</li></a>
+    <a href="../06-theoretical-content/08-authenticity/index.html"><li>Crafting Authenticity</li></a>
+    <a href="../06-theoretical-content/09-digital%2520identity/index.html"><li>Fashionable Personae</li></a>
+	<a href="#"><li>Theoretical Biblio</li></a>
+	  <li></li>
+	  
+	  <a href="#"><li class="bold">About us</li></a>
+
+
+  </ul>
+</div> 
+
+	
+	
+</body>
+
+	<script>
+		$( ".cross" ).hide();
+		$( ".menu" ).hide();
+		$( ".hamburger" ).click(function() {
+			$( ".menu" ).slideToggle( "slow", function() {
+				$( ".hamburger" ).hide();
+				$( ".cross" ).show();
+			});
+		});
+
+		$( ".cross" ).click(function() {
+			$( ".menu" ).slideToggle( "slow", function() {
+				$( ".cross" ).hide();
+				$( ".hamburger" ).show();
+			});
+		});
+	
+	
+		function goBack() {
+			window.history.back();
+		}
+	
+	
+	</script>
+	
+
 
 </html>
