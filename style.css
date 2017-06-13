@@ -38,7 +38,7 @@ div {
 }
 
 
-h1, h2, p {
+h1, h2 {
 	font-size: 1em;
 	color: white;
 }
@@ -47,6 +47,15 @@ p {
     font-family: 'Roboto';
     font-style: normal;
     font-size: 0.9em;
+    color: white;
+}
+ /*caption */
+h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 0.65em;
+    color: white;
+    padding: 15px;
 }
 
 h1 {
@@ -85,7 +94,7 @@ h3 {
 /* The actual popup (appears on top) */
 .popuptext {
     visibility: hidden;
-    width: 100%;
+    width: 119%;
     height: auto;
     background-color: white;
     color: black;
@@ -242,7 +251,16 @@ h3 {
 }
 
 .img-gif {
-    height: 170px;
+    height: 185px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    background-position: center;
+    position: relative;
+}
+
+.img-gif-likes {
+    height: 145px;
     background-size: 100% auto;
     background-repeat: no-repeat;
     border-radius: 12px;
@@ -291,3 +309,14 @@ video::-webkit-media-controls {
     background-position: center;
     counter-increment: carousel-cell;
 }
+
+
+
+blockquote.style2 {
+  font: 14px/22px normal helvetica, sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  padding-left: 15px;
+  border-left: 3px solid #ccc;
+} 

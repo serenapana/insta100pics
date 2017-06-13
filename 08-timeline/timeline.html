@@ -8,6 +8,10 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" href="../assets/css/flickity.css" media="screen">
 
+
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 	
 
@@ -35,7 +39,7 @@
 	<div>
 	<p class="pearlyblogging">
 
-The decidedly unglamorous origins of Fashion Instagrammers can be found in early blogging communities and online forums, where a technological inclined subculture began cultivating a fashionable Internet alcove. Characterized by their aggressively opinionated and crude commentary, blogs like Fashin Fags cultivated dialogues outside the boundaries of traditional publishing, becoming <em>“a platform for erudite, acid-tongued fashion fans to school each other on modeling’s fresh new faces, advertising campaigns and histories of the biggest brands”</em>. This unpolished approach still carries on with Instagram bloggers today, who actively curate content that conflicts with the sophisticated aesthetic of fashion journalism. </p>
+The decidedly unglamorous origins of Fashion Instagrammers can be found in early blogging communities and online forums, where a technological inclined subculture began cultivating a fashionable Internet alcove. Characterized by their aggressively opinionated and crude commentary, blogs like <em>Fashin Fags</em> cultivated dialogues outside the boundaries of traditional publishing, becoming <i>“a platform for erudite, acid-tongued fashion fans to school each other on modeling’s fresh new faces, advertising campaigns and histories of the biggest brands”</i>. This unpolished approach still carries on with Instagram bloggers today, who actively curate content that conflicts with the sophisticated aesthetic of fashion journalism. </p>
 
 			<div>
 
@@ -45,7 +49,7 @@ Unsurprisingly, Instagram’s value is primarily visual, and can be traced back 
 				
 	<p class="ptwitter">
 		
-Following this development, the beginning of Twitter in 2006 further enabled fashion bloggers, establishing the networking potentials of #hastags and tagging. Ubiquitously used by bloggers, #hastags offer bloggers the invaluable asset to connect their content within an entire network of other similarly inclined <em>prosumers</em>, helping them collaborate and discover new audiences. As will be further explored, this networking capability plays an integral role in the economic architecture of Instagram.</p>
+Following this development, the beginning of Twitter in 2006 further enabled fashion bloggers, establishing the networking potentials of #hastags and tagging. Ubiquitously used by bloggers, #hastags offer bloggers the invaluable asset to connect their content within an entire network of other similarly inclined <span class="popup" onclick="popupfour()"><u><em>prosumers</em></u><span class="popuptext" id="myPopupfour"> Coined by Alvin Toffler in 1980, explains a amalgamation of consumer and producer tendencies in a post-industrial societies, where the prosumer actively works to produce the services and goods they buy and consume. </span></span> helping them collaborate and discover new audiences. As will be further explored, this networking capability plays an integral role in the economic architecture of Instagram.</p>
 				
 	<p class="psocialmedia">
 		
@@ -128,7 +132,14 @@ $('.main-carousel').flickity({
 	
 	</script>
 
-	
+	<script> // function for the popup
+	// When the user clicks on <div>, open the popup
+	function popupfour() {
+	    var popup = document.getElementById("myPopupfour");
+	    popup.classList.toggle("show");
+	}
+		
+	</script>
 	
 	
 <?php include '../../footer.php';?>
