@@ -1,7 +1,6 @@
 // update slider
 function outputUpdate(vol) {
 	document.querySelector('#output').value = vol;
-	console.log(vol);
 	$("#pictures img").each(function() {
 		if ( $(this).attr('likes') < parseInt(vol) ) {
 			$(this).addClass('hide');

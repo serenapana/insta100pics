@@ -1,14 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="../style.css">
-</head>
-<body>
-<?php include '../header.php';?>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet"> 
+  <link rel="stylesheet" type="text/css" href="../style.css">
+  <link rel="stylesheet" href="../assets/css/flickity.css" media="screen"> 
 
-<div class="container">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="../assets/js/flickity.pkgd.min.js"></script>
+  <script src="../assets/js/main.js"></script>
+</head>
+
+<body> <!-- add class title to have title style -->
+<div id="mobile">
+  <div id="screen">
+    <div id="scroller">
+
+      <div id="header">  
+        <button onclick="goBack()" class="goback">&lt;</button>    
+        <button class="hamburger">&#9776;</button>
+        <button class="cross">&#735;</button>
+      </div>
+        
+        <div class="menu">
+        <ul>
+         <a href="../01-intro/index.html"><li class="bold">Introduction</li></a>
+         <li></li>
+        <a href="../03-empirical-intro/index.html"><li class="bold">The 100 Pics Strategy</li></a>
+          <a href="../04-empirical-content/03-susie-slider/index.html"><li>Susie Lau</li></a>
+          <a href="../04-empirical-content/02-clair-slider/index.html"><li>Claire Rose Cliteur</li></a>
+          <a href="../04-empirical-content/01-chiara-slider/index.html"><li>Chiara Ferragni</li></a>
+          <li></li>  
+        <a href="../05-theoretical-intro/index.html"><li class="bold">Dive into the Theory</li></a>
+          
+          <a href="../06-theoretical-content/09-digital identity/index.html"><li>Curating Identity</li></a>
+          <a href="../06-theoretical-content/08-authenticity/index.html"><li>Crafting Authenticity</li></a>
+          <a href="../06-theoretical-content/07-workvslesiure/index.html"><li>Work and Leisure</li></a>
+          <a href="../06-theoretical-content/06-user engagement/index.html"><li>Monetizing User Engagement</li></a>
+          <li></li>
+          
+          <a href="../10-about/index.html"><li class="bold">About us</li></a>
+          <a href="../07-bibliography/bibliography.html"><li class="bold">Bibliography</li></a>
+
+        </ul>
+      </div> 
+
+
+      <div class="container">
 
 <h1>Dive into the theory</h1>
 <h2>Overview</h2>
@@ -22,7 +61,9 @@
 
 <a href="../06-theoretical-content/06-user engagement/index.html"><div class="button">Monetizing User Engagement</div></a>
 	
-<?php include '../footer.php';?>
+
+    </div>
+  </div>
 </div>
 </body>
 </html>

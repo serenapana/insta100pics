@@ -1,35 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet"> 
 	<link rel="stylesheet" type="text/css" href="../style.css">
-	
+	<link rel="stylesheet" href="../assets/css/flickity.css" media="screen"> 
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="../assets/js/flickity.pkgd.min.js"></script>
+  <script src="../assets/js/main.js"></script>
 </head>
-<body class="intro">
 
-<?php include '../header.php';?>
+<body> <!-- add class title to have title style -->
+<div id="mobile">
+  <div id="screen">
+    <div id="scroller">
 
-<div class="container">
+      <div id="header">  
+        <button onclick="goBack()" class="goback">&lt;</button>    
+        <button class="hamburger">&#9776;</button>
+        <button class="cross">&#735;</button>
+      </div>
+        
+        <div class="menu">
+        <ul>
+         <a href="../01-intro/index.html"><li class="bold">Introduction</li></a>
+         <li></li>
+        <a href="../03-empirical-intro/index.html"><li class="bold">The 100 Pics Strategy</li></a>
+          <a href="../04-empirical-content/03-susie-slider/index.html"><li>Susie Lau</li></a>
+          <a href="../04-empirical-content/02-clair-slider/index.html"><li>Claire Rose Cliteur</li></a>
+          <a href="../04-empirical-content/01-chiara-slider/index.html"><li>Chiara Ferragni</li></a>
+          <li></li>  
+        <a href="../05-theoretical-intro/index.html"><li class="bold">Dive into the Theory</li></a>
+          
+          <a href="../06-theoretical-content/09-digital identity/index.html"><li>Curating Identity</li></a>
+          <a href="../06-theoretical-content/08-authenticity/index.html"><li>Crafting Authenticity</li></a>
+          <a href="../06-theoretical-content/07-workvslesiure/index.html"><li>Work and Leisure</li></a>
+          <a href="../06-theoretical-content/06-user engagement/index.html"><li>Monetizing User Engagement</li></a>
+          <li></li>
+          
+          <a href="../10-about/index.html"><li class="bold">About us</li></a>
+          <a href="../07-bibliography/bibliography.html"><li class="bold">Bibliography</li></a>
 
-	<h1>From Runways, to Fashion Editorials, and Instagram Filters</h1>
-	<h2>Interrogating the Emergence of Fashion Instagrammers</h2>
-	
-	<div class="img-gif" style="background-image:url('../assets/img/instagram.gif')">
+        </ul>
+      </div> 
+
+			<div class="container">
+
+				<h1>From Runways, to Fashion Editorials, and Instagram Filters</h1>
+				<h2>Interrogating the Emergence of Fashion Instagrammers</h2>
+				
+				<div class="img-gif" style="background-image:url('../assets/img/instagram.gif')">
+				</div>
+				
+				<p>Fashion blogging, once confined to the margins of an obscure Internet coterie, has profoundly risen to the echelons of the fashion elite. This contentious ascent provoked disputes around editorial authority to light, but also broader questions about precarious labour and self-branding. As result, our research looked to move beyond the shallow criticisms of narcissism and conspicuous consumption that plague public perceptions, and strive to develop a more nuanced and critical account of fashion bloggers, appreciating their broad economic, cultural, and political emergence.</p>
+
+				<p>The arrival of fashion blogging into the mainstream occurred during the mid-2000s, when the first generation of fashion bloggers were courted by designer labels and granted access to the prestigious front shows of runways. This initial development was met with polarizing sentiments. Editors and fashion insiders derided this inclusion as amateurish and their presence as tasteless. However, bloggers and their followings applauded the democratizing influence ushered in and the broadening impact of opening fashion shows from the runaways into the living rooms. And while this question of the democratization of fashion elicited passionate responses in the industry, the emergence of Fashion Instagrammers brings forward many profound questions.<p> 
+
+				<p>This app is the culmination of our research on the rise, influence, and consequences of Fashion Instagrammers on the industry. The research centered around four principle narratives, with each attempting to unpackage the complicated set of mediated relations underlying Fashion Instagrammers. Complementing this conceptual research, we undertook a dedicated, small data inquiry. For it, we selected three prominent Fashion Instagrammers and dove into their Instagram feeds and collected their most recent 100 photos posted. This small data set was aimed to complement our theoretical work with concrete insights into how bloggers reconcile their branded identity, as well as the underlying negotiation cultivated between user engagement and corporate sponsorships that underlies the architecture of fashion Instagraming.<p>
+
+				<a href="../08-timeline/index.html" class="full"></a>
+
+			</div>
+
+		</div>
 	</div>
-	
-	<p>Fashion blogging, once confined to the margins of an obscure Internet coterie, has profoundly risen to the echelons of the fashion elite. This contentious ascent provoked disputes around editorial authority to light, but also broader questions about precarious labour and self-branding. As result, our research looked to move beyond the shallow criticisms of narcissism and conspicuous consumption that plague public perceptions, and strive to develop a more nuanced and critical account of fashion bloggers, appreciating their broad economic, cultural, and political emergence.</p>
-
-	<p>The arrival of fashion blogging into the mainstream occurred during the mid-2000s, when the first generation of fashion bloggers were courted by designer labels and granted access to the prestigious front shows of runways. This initial development was met with polarizing sentiments. Editors and fashion insiders derided this inclusion as amateurish and their presence as tasteless. However, bloggers and their followings applauded the democratizing influence ushered in and the broadening impact of opening fashion shows from the runaways into the living rooms. And while this question of the democratization of fashion elicited passionate responses in the industry, the emergence of Fashion Instagrammers brings forward many profound questions.<p> 
-
-	<p>This app is the culmination of our research on the rise, influence, and consequences of Fashion Instagrammers on the industry. The research centered around four principle narratives, with each attempting to unpackage the complicated set of mediated relations underlying Fashion Instagrammers. Complementing this conceptual research, we undertook a dedicated, small data inquiry. For it, we selected three prominent Fashion Instagrammers and dove into their Instagram feeds and collected their most recent 100 photos posted. This small data set was aimed to complement our theoretical work with concrete insights into how bloggers reconcile their branded identity, as well as the underlying negotiation cultivated between user engagement and corporate sponsorships that underlies the architecture of fashion Instagraming.<p>
-
-<a href="../08-timeline/index.html" class="full">
-</a>
-
-<?php include '../footer.php';?>
-
 </div>
+
 </body>
 </html>

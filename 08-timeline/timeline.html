@@ -1,76 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-	<link rel='stylesheet' href='../style.css' type='text/css' media='all' />
-	<link rel="stylesheet" type="text/css" href="../../insta100pics/style.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" href="../assets/css/flickity.css" media="screen">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="../style.css">
+	<link rel="stylesheet" href="../assets/css/flickity.css" media="screen"> 
 
-
-	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-	
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="../assets/js/flickity.pkgd.min.js"></script>
+  <script src="../assets/js/main.js"></script>
 </head>
-<body>
-<?php include '../../header.php';?>
+
+<body> <!-- add class title to have title style -->
+<div id="mobile">
+  <div id="screen">
+    <div id="scroller">
+
+      <div id="header">  
+        <button onclick="goBack()" class="goback">&lt;</button>    
+        <button class="hamburger">&#9776;</button>
+        <button class="cross">&#735;</button>
+      </div>
+        
+        <div class="menu">
+        <ul>
+         <a href="../01-intro/index.html"><li class="bold">Introduction</li></a>
+         <li></li>
+        <a href="../03-empirical-intro/index.html"><li class="bold">The 100 Pics Strategy</li></a>
+          <a href="../04-empirical-content/03-susie-slider/index.html"><li>Susie Lau</li></a>
+          <a href="../04-empirical-content/02-clair-slider/index.html"><li>Claire Rose Cliteur</li></a>
+          <a href="../04-empirical-content/01-chiara-slider/index.html"><li>Chiara Ferragni</li></a>
+          <li></li>  
+        <a href="../05-theoretical-intro/index.html"><li class="bold">Dive into the Theory</li></a>
+          
+          <a href="../06-theoretical-content/09-digital identity/index.html"><li>Curating Identity</li></a>
+          <a href="../06-theoretical-content/08-authenticity/index.html"><li>Crafting Authenticity</li></a>
+          <a href="../06-theoretical-content/07-workvslesiure/index.html"><li>Work and Leisure</li></a>
+          <a href="../06-theoretical-content/06-user engagement/index.html"><li>Monetizing User Engagement</li></a>
+          <li></li>
+          
+          <a href="../10-about/index.html"><li class="bold">About us</li></a>
+          <a href="../07-bibliography/bibliography.html"><li class="bold">Bibliography</li></a>
+
+        </ul>
+      </div> 
+
+			<div class="container">
 	
 	
-<div class="container">
-	
-	
-	<!-- carousel -->
+					<!-- carousel -->
 
-	<div class="carousel"
-  	data-flickity='{"wrapAround": true }' style="margin-bottom:36px;">
-	  <img src="../assets/img/early blogging.jpg" id="first" class="carousel-cell" />
-	  <img src="../assets/img/flickr.jpg" id="second" class="carousel-cell" />
-	  <img src="../assets/img/twitter.jpg" id="third" class="carousel-cell" />
-	  <img src="../assets/img/social media.jpg" id="forth" class="carousel-cell" />
+					<div class="carousel"
+				  	data-flickity='{"wrapAround": true }' style="margin-bottom:36px;">
+					  <img src="../assets/img/early blogging.jpg" id="first" class="carousel-cell" />
+					  <img src="../assets/img/flickr.jpg" id="second" class="carousel-cell" />
+					  <img src="../assets/img/twitter.jpg" id="third" class="carousel-cell" />
+					  <img src="../assets/img/social media.jpg" id="forth" class="carousel-cell" />
 
-	</div>
-	
-	<a class="gotohome" href=""><div class="gotohomediv"></div></a>
+					</div>
+					
+					<a class="gotohome" href=""><div class="gotohomediv"></div></a>
 
-	<div>
-	<p class="pearlyblogging">
+					<div>
+					<p class="pearlyblogging">
 
-The decidedly unglamorous origins of Fashion Instagrammers can be found in early blogging communities and online forums, where a technological inclined subculture began cultivating a fashionable Internet alcove. Characterized by their aggressively opinionated and crude commentary, blogs like <em>Fashin Fags</em> cultivated dialogues outside the boundaries of traditional publishing, becoming <i>“a platform for erudite, acid-tongued fashion fans to school each other on modeling’s fresh new faces, advertising campaigns and histories of the biggest brands”</i>. This unpolished approach still carries on with Instagram bloggers today, who actively curate content that conflicts with the sophisticated aesthetic of fashion journalism. </p>
+				The decidedly unglamorous origins of Fashion Instagrammers can be found in early blogging communities and online forums, where a technological inclined subculture began cultivating a fashionable Internet alcove. Characterized by their aggressively opinionated and crude commentary, blogs like <em>Fashin Fags</em> cultivated dialogues outside the boundaries of traditional publishing, becoming <i>“a platform for erudite, acid-tongued fashion fans to school each other on modeling’s fresh new faces, advertising campaigns and histories of the biggest brands”</i>. This unpolished approach still carries on with Instagram bloggers today, who actively curate content that conflicts with the sophisticated aesthetic of fashion journalism. </p>
 
-			<div>
+							<div>
 
-	<p class="pflickr">
-	
-Unsurprisingly, Instagram’s value is primarily visual, and can be traced back to the introduction of Flickr in 2004. With the popularization of this large image repository, bloggers were able to increasingly incorporate more and more photos alongside text, and create more engaging and formally pleasing content. And while early fashion bloggers still relied on text and written commentary, with long-form written posts only rarely punctuated by images, Instagrammers now take full advantage of the platform’s affinity for ‘selfies’ and outfits posts.</p>
-				
-	<p class="ptwitter">
-		
-Following this development, the beginning of Twitter in 2006 further enabled fashion bloggers, establishing the networking potentials of #hastags and tagging. Ubiquitously used by bloggers, #hastags offer bloggers the invaluable asset to connect their content within an entire network of other similarly inclined <span class="popup" onclick="popupfour()"><u><em>prosumers</em></u><span class="popuptext" id="myPopupfour"> Coined by Alvin Toffler in 1980, explains a amalgamation of consumer and producer tendencies in a post-industrial societies, where the prosumer actively works to produce the services and goods they buy and consume. </span></span> helping them collaborate and discover new audiences. As will be further explored, this networking capability plays an integral role in the economic architecture of Instagram.</p>
-				
-	<p class="psocialmedia">
-		
-And lastly, another important ingredient simmering in the background is the rise of social media. Social media, including Facebook, Snapchat and Instagram alongside Twitter and Flicker, normalize the immediacy of social sharing. These accelerated rates of content creation stress traditional intermediaries, such as magazines, which are compelled to publish content at increasingly frantic paces. 
+					<p class="pflickr">
+					
+				Unsurprisingly, Instagram’s value is primarily visual, and can be traced back to the introduction of Flickr in 2004. With the popularization of this large image repository, bloggers were able to increasingly incorporate more and more photos alongside text, and create more engaging and formally pleasing content. And while early fashion bloggers still relied on text and written commentary, with long-form written posts only rarely punctuated by images, Instagrammers now take full advantage of the platform’s affinity for ‘selfies’ and outfits posts.</p>
+								
+					<p class="ptwitter">
+						
+				Following this development, the beginning of Twitter in 2006 further enabled fashion bloggers, establishing the networking potentials of #hastags and tagging. Ubiquitously used by bloggers, #hastags offer bloggers the invaluable asset to connect their content within an entire network of other similarly inclined <span class="popup" onclick="popupfour()"><u><em>prosumers</em></u><span class="popuptext" id="myPopupfour"> Coined by Alvin Toffler in 1980, explains a amalgamation of consumer and producer tendencies in a post-industrial societies, where the prosumer actively works to produce the services and goods they buy and consume. </span></span> helping them collaborate and discover new audiences. As will be further explored, this networking capability plays an integral role in the economic architecture of Instagram.</p>
+								
+					<p class="psocialmedia">
+						
+				And lastly, another important ingredient simmering in the background is the rise of social media. Social media, including Facebook, Snapchat and Instagram alongside Twitter and Flicker, normalize the immediacy of social sharing. These accelerated rates of content creation stress traditional intermediaries, such as magazines, which are compelled to publish content at increasingly frantic paces. 
 
-As bloggers began slowly trickling into runway shows during the late 2000s, editors and publishers lost the luxury of delaying magazine releases until months after shows were completed. The rise of social media has entrenched the expectation that the latest trends, insider news and exclusive behind-the-scenes access will be shared instantaneously to satisfy digital appetites.</p>
-		
+				As bloggers began slowly trickling into runway shows during the late 2000s, editors and publishers lost the luxury of delaying magazine releases until months after shows were completed. The rise of social media has entrenched the expectation that the latest trends, insider news and exclusive behind-the-scenes access will be shared instantaneously to satisfy digital appetites.</p>
+						
+						</div>
+
+				</div>
+
 		</div>
-
+	</div>
 </div>
 
-	
-<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-<script src="../assets/js/flickity.pkgd.min.js"></script>
-<script type="text/javascript">
-$('.main-carousel').flickity({
-  // options
-  cellAlign: 'left',
-  contain: true
-});
-</script>
 	
 		<script>
 			
@@ -141,8 +161,6 @@ $('.main-carousel').flickity({
 		
 	</script>
 	
-	
-<?php include '../../footer.php';?>
 
 </body>
 	

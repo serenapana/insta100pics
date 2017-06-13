@@ -1,33 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="../style.css">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet"> 
+  <link rel="stylesheet" type="text/css" href="../style.css">
+  <link rel="stylesheet" href="../assets/css/flickity.css" media="screen"> 
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="../assets/js/flickity.pkgd.min.js"></script>
+  <script src="../assets/js/main.js"></script>
 </head>
-<body>
-	<?php include '../header.php';?>
-<div class="container">
 
-	<h1>The <em>100 Pics</em> Strategy</h1>
-	<h2> Fashion Instagrammers</h2>
-	<p>The three fashion personae chosen below represent the wide spectrum of fashion bloggers, from Chiara Ferragni, currently the most followed fashion blogger worldwide, to Susie Lau, a pioneer in the industry, and Claire Rose Cliteur, a young emerging blogger from Amsterdam.</p>
-	<p>The <em>100 Pics</em> Strategy reflects how audience resonance is a cultivated negotiation between displays of personal intimacy and lucrative sponsorships. In other words, our research will show how themes of motherhood, romance and friendship are curated narratives that each blogger employs in order to advance their fashionable personae.</p>
+<body> <!-- add class title to have title style -->
+<div id="mobile">
+  <div id="screen">
+    <div id="scroller">
 
-	<div class="profile" style="background-image:url('../assets/img/def-ferragni.jpg')">
-		<a href="../04-empirical-content/01-chiara-slider/index.html" class="more">Follow</a>
-	</div>
+      <div id="header">  
+        <button onclick="goBack()" class="goback">&lt;</button>    
+        <button class="hamburger">&#9776;</button>
+        <button class="cross">&#735;</button>
+      </div>
+        
+        <div class="menu">
+        <ul>
+         <a href="../01-intro/index.html"><li class="bold">Introduction</li></a>
+         <li></li>
+        <a href="../03-empirical-intro/index.html"><li class="bold">The 100 Pics Strategy</li></a>
+          <a href="../04-empirical-content/03-susie-slider/index.html"><li>Susie Lau</li></a>
+          <a href="../04-empirical-content/02-clair-slider/index.html"><li>Claire Rose Cliteur</li></a>
+          <a href="../04-empirical-content/01-chiara-slider/index.html"><li>Chiara Ferragni</li></a>
+          <li></li>  
+        <a href="../05-theoretical-intro/index.html"><li class="bold">Dive into the Theory</li></a>
+          
+          <a href="../06-theoretical-content/09-digital identity/index.html"><li>Curating Identity</li></a>
+          <a href="../06-theoretical-content/08-authenticity/index.html"><li>Crafting Authenticity</li></a>
+          <a href="../06-theoretical-content/07-workvslesiure/index.html"><li>Work and Leisure</li></a>
+          <a href="../06-theoretical-content/06-user engagement/index.html"><li>Monetizing User Engagement</li></a>
+          <li></li>
+          
+          <a href="../10-about/index.html"><li class="bold">About us</li></a>
+          <a href="../07-bibliography/bibliography.html"><li class="bold">Bibliography</li></a>
 
-	<div class="profile" style="background-image:url('../assets/img/def-claartje.jpg')">
-		<a href="../04-empirical-content/02-clair-slider/index.html" class="more">Follow</a>
-	</div>
+        </ul>
+      </div> 
 
-	<div class="profile" style="background-image:url('../assets/img/def-susie.jpg')">
-		<a href="../04-empirical-content/03-susie-slider/index.html" class="more">Follow</a>
-	</div>
+			<div class="container">
 
+				<h1>The <em>100 Pics</em> Strategy</h1>
+				<h2> Fashion Instagrammers</h2>
+				<p>The three fashion personae chosen below represent the wide spectrum of fashion bloggers, from Chiara Ferragni, currently the most followed fashion blogger worldwide, to Susie Lau, a pioneer in the industry, and Claire Rose Cliteur, a young emerging blogger from Amsterdam.</p>
+				<p>The <em>100 Pics</em> Strategy reflects how audience resonance is a cultivated negotiation between displays of personal intimacy and lucrative sponsorships. In other words, our research will show how themes of motherhood, romance and friendship are curated narratives that each blogger employs in order to advance their fashionable personae.</p>
 
-<?php include '../footer.php';?>
+				<div class="profile" style="background-image:url('../assets/img/def-ferragni.jpg')">
+					<a href="../04-empirical-content/01-chiara-slider/index.html" class="more">Follow</a>
+				</div>
+
+				<div class="profile" style="background-image:url('../assets/img/def-claartje.jpg')">
+					<a href="../04-empirical-content/02-clair-slider/index.html" class="more">Follow</a>
+				</div>
+
+				<div class="profile" style="background-image:url('../assets/img/def-susie.jpg')">
+					<a href="../04-empirical-content/03-susie-slider/index.html" class="more">Follow</a>
+				</div>
+		
+			</div>
+
+    </div>
+  </div>
 </div>
+
 </body>
 </html>

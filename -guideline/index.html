@@ -1,130 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet"> 
 	<link rel="stylesheet" type="text/css" href="../style.css">
-	
-	<link rel="stylesheet" href="../assets/css/flickity.css" media="screen">
+	<link rel="stylesheet" href="../assets/css/flickity.css" media="screen"> 
 
-
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="../assets/js/flickity.pkgd.min.js"></script>
+  <script src="../assets/js/main.js"></script>
 </head>
 
 <body> <!-- add class title to have title style -->
+<div id="mobile">
+  <div id="screen">
+    <div id="scroller">
 
-<div class="container">
+      <div id="header">  
+        <button onclick="goBack()" class="goback">&lt;</button>    
+        <button class="hamburger">&#9776;</button>
+        <button class="cross">&#735;</button>
+      </div>
+        
+        <div class="menu">
+        <ul>
+         <a href="../01-intro/index.html"><li class="bold">Introduction</li></a>
+         <li></li>
+        <a href="../03-empirical-intro/index.html"><li class="bold">The 100 Pics Strategy</li></a>
+          <a href="../04-empirical-content/03-susie-slider/index.html"><li>Susie Lau</li></a>
+          <a href="../04-empirical-content/02-clair-slider/index.html"><li>Claire Rose Cliteur</li></a>
+          <a href="../04-empirical-content/01-chiara-slider/index.html"><li>Chiara Ferragni</li></a>
+          <li></li>  
+        <a href="../05-theoretical-intro/index.html"><li class="bold">Dive into the Theory</li></a>
+          
+          <a href="../06-theoretical-content/09-digital identity/index.html"><li>Curating Identity</li></a>
+          <a href="../06-theoretical-content/08-authenticity/index.html"><li>Crafting Authenticity</li></a>
+          <a href="../06-theoretical-content/07-workvslesiure/index.html"><li>Work and Leisure</li></a>
+          <a href="../06-theoretical-content/06-user engagement/index.html"><li>Monetizing User Engagement</li></a>
+          <li></li>
+          
+          <a href="../10-about/index.html"><li class="bold">About us</li></a>
+          <a href="../07-bibliography/bibliography.html"><li class="bold">Bibliography</li></a>
 
-	<h1>Title</h1>
-
-	<h2>Subtitle</h2>
-
-	<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.<span class="popup" onclick="myFunction()"><u>Nemo</u><span class="popuptext" id="myPopup">An interesting and informative comment appears here.</span></span> enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-
-	<script> // function for the popup
-	// When the user clicks on <div>, open the popup
-	function myFunction() {
-	    var popup = document.getElementById("myPopup");
-	    popup.classList.toggle("show");
-	}
-	</script>
-
-
-
- <!-- question -->
-
-	<h3>How do bloggers strategically curate their branded identities in order to monetize user engagement?</h3>
-
-
- <!-- button -->
-
-	<a href="#"> 
-		<div class="button">Button</div>
-	</a>
-	
-
- <!-- img intro similar to instagam page: empiric intro  -->
-
-	<div class="profile" style="background-image:url('../assets/img/def-ferragni.jpg')">
-		<a href="../04-empirical-content/index.html" class="more">Follow</a>
-	</div>
+        </ul>
+      </div> 
 
 
- <!-- img circular fashion blogger before slider -->
+      <div class="container">
 
-	<a class="circular">
-		<img class="img-circular" src="../assets/img/susiecircle.png">
-		<a class="text-circular">
-			<h1>Motherhood's Power</h1>
-			<h2>@susiebubble</h2>
-		</a>
-	</a>
+      	<h1>Title</h1>
 
+      	<h2>Subtitle</h2>
 
+      	<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.<span class="popup" onclick="myFunction()"><u>Nemo</u><span class="popuptext" id="myPopup">An interesting and informative comment appears here.</span></span> enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
 
- <!-- img size for slider -->
+       <!-- question -->
 
-	<div class="gallery">
-		<img class="img-gallery" src="../assets/img/prova-gallery.jpg">
-		<img class="img-gallery" src="../assets/img/prova-gallery.jpg">
-		<img class="img-gallery" src="../assets/img/prova-gallery.jpg">
-	</div>
+      	<h3>How do bloggers strategically curate their branded identities in order to monetize user engagement?</h3>
 
 
-<!-- img size full page -->
+       <!-- button -->
 
-	<div class="img-empirical" style="background-image:url('../assets/img/prova-gallery.jpg')">
-	</div>
+      	<a href="#"> 
+      		<div class="button">Button</div>
+      	</a>
+      	
 
+       <!-- img intro similar to instagam page: empiric intro  -->
 
-<!-- video -->
-
-	<video controls>
-
-	  <source src="../assets/img/SocialMediaVsReality_LOW.mp4" type="video/mp4">
-	  <source src="../assets/img/SocialMediaVsReality_LOW.ogg" type="video/ogg" >
-	  Your browser does not support HTML5 video.
-	 </video>
-
-<!-- gif -->
-
-	<div class="img-gif" style="background-image:url('../assets/img/likes.gif')">
-	</div>
-
-<!-- carousel -->
-
-	<div class="main-carousel">
-	  <img src="../assets/img/prova-gallery.jpg" class="carousel-cell" />
-	  <img src="../assets/img/prova-gallery.jpg" class="carousel-cell" />
-	  <img src="../assets/img/prova-gallery.jpg" class="carousel-cell" />
-	</div>
+      	<div class="profile" style="background-image:url('../assets/img/def-ferragni.jpg')">
+      		<a href="../04-empirical-content/index.html" class="more">Follow</a>
+      	</div>
 
 
-<!-- quote -->	
-<div class="w3-container">
-  <div class="w3-panel w3-card-4" style="width:100%">
-    <p><i class="fa fa-quote-right w3-xlarge w3-text-white"></i><br>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non massa vitae risus fermentum ullamcorper. Phasellus risus urna, ornare in aliquam id, porttitor sit amet sapien. Nulla facilisi.</p>
+       <!-- img circular fashion blogger before slider -->
+
+      	<a class="circular">
+      		<img class="img-circular" src="../assets/img/susiecircle.png">
+      		<a class="text-circular">
+      			<h1>Motherhood's Power</h1>
+      			<h2>@susiebubble</h2>
+      		</a>
+      	</a>
+
+
+
+       <!-- img size for slider -->
+
+      	<div class="gallery">
+      		<img class="img-gallery" src="../assets/img/prova-gallery.jpg">
+      		<img class="img-gallery" src="../assets/img/prova-gallery.jpg">
+      		<img class="img-gallery" src="../assets/img/prova-gallery.jpg">
+      	</div>
+
+
+      <!-- img size full page -->
+
+      	<div class="img-empirical" style="background-image:url('../assets/img/prova-gallery.jpg')">
+      	</div>
+
+
+      <!-- video -->
+
+      	<video controls>
+
+      	  <source src="../assets/img/SocialMediaVsReality_LOW.mp4" type="video/mp4">
+      	  <source src="../assets/img/SocialMediaVsReality_LOW.ogg" type="video/ogg" >
+      	  Your browser does not support HTML5 video.
+      	 </video>
+
+      <!-- gif -->
+
+      	<div class="img-gif" style="background-image:url('../assets/img/likes.gif')">
+      	</div>
+
+      <!-- carousel -->
+
+      	<div class="main-carousel">
+      	  <img src="../assets/img/prova-gallery.jpg" class="carousel-cell" />
+      	  <img src="../assets/img/prova-gallery.jpg" class="carousel-cell" />
+      	  <img src="../assets/img/prova-gallery.jpg" class="carousel-cell" />
+      	</div>
+
+
+      <!-- quote -->	
+      <div class="w3-container">
+        <div class="w3-panel w3-card-4" style="width:100%">
+          <p><i class="fa fa-quote-right w3-xlarge w3-text-white"></i><br>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non massa vitae risus fermentum ullamcorper. Phasellus risus urna, ornare in aliquam id, porttitor sit amet sapien. Nulla facilisi.</p>
+        </div>
+      </div>
+
+      <h4>Serena Panariti, draw</h4>
+
+      </div>
+
+    </div>
   </div>
 </div>
-
-<h4>Serena Panariti, draw</h4>
-
-
-
-</div>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="../assets/js/flickity.pkgd.min.js"></script>
-<script type="text/javascript">
-$('.main-carousel').flickity({
-  // options
-  cellAlign: 'left',
-  contain: true
-});
-</script>
-
 </body>
 </html>
