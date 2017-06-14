@@ -30,7 +30,7 @@ body {
   padding: 0;
   overflow: auto;
   height: 100%;
-  width: calc(100% + 20px);
+  width: 100%;
 }
 
 /* --- HEADER */
