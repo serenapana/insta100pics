@@ -48,8 +48,26 @@
         </ul>
       </div> 
       
-<div class="container">
-<?php include '../../header.php';?>
+<div class="headerpicts">
+  
+  <div class="div-slider">
+    <div class="heartandnumber">
+
+    <img class="heartslider" src="../like.png"/>
+        <output for="slider" id="output">788</output>
+    </div>
+    
+    <input type="range" id="slider" min="788" max="19344" value="788" oninput="outputUpdate(value)" list="volsettings"/></label>
+      <datalist id="volsettings">
+        <option>788</option>
+				<option>19344</option>
+      </datalist>
+
+  </div>
+  
+</div>
+
+<div class="container slider">
 
 <a class="circular">
 		<img class="img-circular" src="../../assets/img/susiecircle.png">
@@ -60,29 +78,6 @@
 	</a>	
 
 <p>Starting in 2006, Susie Lau’s fashion blog, <em>Style Bubble</em>, has become one of the most successful and widely recognised blogs, and helped establish Susie as a pioneer in the emerging industry. A British fashion blogger with Chinese heritage, Susie is renowned for her quirky and eccentric styling, and often describes herself as a fashion-outsider.</p>
-<div class="headerpicts">
-	
-
-	
-	<div class="div-slider">
-		<div class="heartandnumber">
-		<img class="heartslider" src="../like.png"/> 
-		<output for="slider" id="output">788</output>
-		</div>
-<label for="slider" style="font-size:12px;">
-		<input type="range" id="slider" min="788" max="19344" value="788" oninput="outputUpdate(value)" list="volsettings"/></label>
-			<datalist id="volsettings">
-				<option>788</option>
-				<option>19344</option>
-			</datalist>
-
-	</div>
-
-	
-	
-	
-</div>
-	
 	
 		
 <div id="pictures">

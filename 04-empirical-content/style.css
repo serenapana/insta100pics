@@ -91,8 +91,10 @@ left:50px;
 
 .likesonpict{
 
- position: relative;
- top: -74px;
+  font-size: 0.7em;
+  line-height: 2.2;
+  position: relative;
+  top: -74px;
 
 }
 

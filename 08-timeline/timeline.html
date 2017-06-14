@@ -75,7 +75,7 @@
 								
 					<p class="ptwitter">
 						
-				Following this development, the beginning of Twitter in 2006 further enabled fashion bloggers, establishing the networking potentials of #hastags and tagging. Ubiquitously used by bloggers, #hastags offer bloggers the invaluable asset to connect their content within an entire network of other similarly inclined <span class="popup" onclick="popupfour()"><u><em>prosumers</em></u><span class="popuptext" id="myPopupfour"> Coined by Alvin Toffler in 1980, explains a amalgamation of consumer and producer tendencies in a post-industrial societies, where the prosumer actively works to produce the services and goods they buy and consume. </span></span> helping them collaborate and discover new audiences. As will be further explored, this networking capability plays an integral role in the economic architecture of Instagram.</p>
+				Following this development, the beginning of Twitter in 2006 further enabled fashion bloggers, establishing the networking potentials of #hastags and tagging. Ubiquitously used by bloggers, #hastags offer bloggers the invaluable asset to connect their content within an entire network of other similarly inclined <span class="popup" onclick="popupfour()"><u><em>prosumers</em></u><span class="popuptext" id="myPopupfour" style="width:120px;"> Coined by Alvin Toffler in 1980, explains a amalgamation of consumer and producer tendencies in a post-industrial societies, where the prosumer actively works to produce the services and goods they buy and consume. </span></span> helping them collaborate and discover new audiences. As will be further explored, this networking capability plays an integral role in the economic architecture of Instagram.</p>
 								
 					<p class="psocialmedia">
 						
@@ -93,6 +93,12 @@
 
 	
 		<script>
+
+      $( document ).ready(function() {
+        $(".pflickr").css("display","none");
+        $(".ptwitter").css("display","none");
+        $(".psocialmedia").css("display","none");
+      });
 			
 			$( ".container" ).click(function() {
 				
@@ -107,7 +113,7 @@
 	
 	if ( firstselected == true) {
 		
-			$(".pearlyblogging").css("display","inline");
+			$(".pearlyblogging").css("display","block");
 			$(".pflickr").css("display","none");
 			$(".ptwitter").css("display","none");
 			$(".psocialmedia").css("display","none");
@@ -119,7 +125,7 @@
 		if (secondselected == true) {
 		
 		$(".pearlyblogging").css("display","none");
-			$(".pflickr").css("display","inline");
+			$(".pflickr").css("display","block");
 			$(".ptwitter").css("display","none");
 			$(".psocialmedia").css("display","none");
 
@@ -129,7 +135,7 @@
 			
 		$(".pearlyblogging").css("display","none");
 			$(".pflickr").css("display","none");
-			$(".ptwitter").css("display","inline");
+			$(".ptwitter").css("display","block");
 			$(".psocialmedia").css("display","none");
 			$(".gotohomediv").css("display","none");
 			$(".gotohome").attr("href", "");
@@ -140,7 +146,7 @@
 			$(".pearlyblogging").css("display","none");
 			$(".pflickr").css("display","none");
 			$(".ptwitter").css("display","none");
-			$(".psocialmedia").css("display","inline");
+			$(".psocialmedia").css("display","block");
 			$(".full").css("display","block");
 			$(".gotohomediv").css("display","block");
 			$(".gotohome").attr("href", "../02-home/index.html");

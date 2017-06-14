@@ -70,17 +70,23 @@
 	function popupone() {
 	    var popup = document.getElementById("myPopupone");
 	    popup.classList.toggle("show");
+      $("#myPopuptwo").removeClass('show');
+      $("#myPopupthree").removeClass('show');
 	}
 		
 			function popuptwo() {
 	    var popup = document.getElementById("myPopuptwo");
 	    popup.classList.toggle("show");
+      $("#myPopupone").removeClass('show');
+      $("#myPopupthree").removeClass('show');
 	}
 		
 
 			function popupthree() {
 	    var popup = document.getElementById("myPopupthree");
 	    popup.classList.toggle("show");
+      $("#myPopupone").removeClass('show');
+      $("#myPopuptwo").removeClass('show');
 	}
 	</script>
 

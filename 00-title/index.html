@@ -10,6 +10,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="../assets/js/flickity.pkgd.min.js"></script>
   <script src="../assets/js/main.js"></script>
+
+  <title>Fashion Instagrammers in 100 Pics</title>
 </head>
 
 <body> <!-- add class title to have title style -->
@@ -54,9 +56,15 @@
 
 						function doSetTimeout(i) { // the text of the number changes with a timeout: a delay of 20ms
 							setTimeout(function() { 
-								$('#number').text(i);
-							}, 20 * i);
+                time = easeInOutQuad(i, 0, 100, 100);
+								$('#number').text(Math.floor(time));
+							}, 50 * i);
 						}
+
+            function easeInOutQuad(t, b, c, d) {
+              if ((t/=d/2) < 1) return c/2*t*t + b;
+              return -c/2 * ((--t)*(t-2) - 1) + b;
+            }  
 
 						for (i = 0; i < 101; i++) {  // the for loop does 100 times the function doSetTimeout
 							doSetTimeout(i);	
@@ -66,6 +74,7 @@
 
 			<div class="container title">
 				<h1 class="title">Fashion Instagrammers in <span id="number">100</span> Pics</h1>
+        <p> Insert subtitle</p>
 				<a href="../01-intro/index.html" class="full"></a>
 			</div>
 
