@@ -186,14 +186,14 @@ h1, h2 {
 
 p {
     font-family: 'Roboto';
-    font-style: normal;
+    font-weight: normal;
     font-size: 0.9em;
     color: white;
 }
  /*caption */
 h4 {
     font-family: 'Roboto';
-    font-style: normal;
+    font-weight: normal;
     font-size: 0.65em;
     color: white;
     padding: 15px;
@@ -201,7 +201,8 @@ h4 {
 
 h1 {
 	text-transform: uppercase;
- 	font-style: bold;
+ 	font-family: 'Roboto';
+  font-weight: bold;
 }
 
 h1.title {
@@ -209,8 +210,16 @@ h1.title {
 	font-size: 1.5em;
 	color: white;
 	font-style: bold;
-    width: 80%;
+  width: 80%;
   margin: 60% auto;
+}
+
+h5.title {
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-size: 0.9em;
+    color: white;width: 80%;
+    margin: 60% auto;
 }
 
 h2 {
@@ -609,7 +618,7 @@ blockquote.style2 {
 }
 
 #slider {
-  width: 92% !important;
+  width: 90% !important;
 }
 
 /* --- MOBILE */
