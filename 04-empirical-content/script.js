@@ -19,6 +19,12 @@ function outputUpdate(vol) {
 			$(this).parent().removeClass('order');
 		}
 	});
+
+	// auto scrolling
+	// scrollTop = $("#scroller").scrollTop() + $( ".order" ).last().children().offset().top;
+	// $('#scroller, body, html').clearQueue();
+  // $('#scroller, body, html').animate({ scrollTop: scrollTop - 300 });
+
 }
 
 $(document).ready(function(){
@@ -30,5 +36,6 @@ $(document).ready(function(){
 	  var pic = [ $(this).attr('id'), $(this).attr('likes')];
 	  picsLikes.push(pic);
 	});
+
 
 });

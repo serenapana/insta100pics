@@ -1,10 +1,6 @@
  $( document ).ready(function() {
 
-  $('.main-carousel').flickity({
-    // options
-    cellAlign: 'left',
-    contain: true
-  });
+
 
   // function for the popup
   // When the user clicks on <div>, open the popup
@@ -29,6 +25,14 @@
     });
   });
 
+});
+
+$(window).on("load", function() {
+  $('.main-carousel').flickity({
+    // options
+    cellAlign: 'left',
+    contain: true
+  });
 });
 
 function goBack() {
