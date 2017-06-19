@@ -21,9 +21,11 @@ function outputUpdate(vol) {
 	});
 
 	// auto scrolling
-	// scrollTop = $("#scroller").scrollTop() + $( ".order" ).last().children().offset().top;
-	// $('#scroller, body, html').clearQueue();
-  // $('#scroller, body, html').animate({ scrollTop: scrollTop - 300 });
+	setTimeout(function(){ 
+		$('#scroller, body, html').clearQueue();
+		scrollTop = $("#scroller").scrollTop() + $( ".order" ).last().children().offset().top;
+		$('#scroller, body, html').animate({ scrollTop: scrollTop - 300 });
+	}, 50);
 
 }
 
@@ -35,6 +37,10 @@ $(document).ready(function(){
 	$( "#pictures img" ).each(function() {
 	  var pic = [ $(this).attr('id'), $(this).attr('likes')];
 	  picsLikes.push(pic);
+	});
+
+	$("#scroller, html, body").bind("scroll mousedown DOMMouseScroll mousewheel keyup", function(){
+    $('html, body').stop();
 	});
 
 
