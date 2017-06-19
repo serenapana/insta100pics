@@ -656,3 +656,12 @@ blockquote.style2 {
   }
 
 }
+
+.img-about {
+  height: 50PX;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    background-position: center;
+    position: relative;
+}
