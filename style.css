@@ -1,6 +1,6 @@
 /* General guideline */
 
-body {
+html, body {
 	font-family: 'Roboto';
 	margin: 0;
 	padding: 0;
@@ -626,7 +626,7 @@ blockquote.style2 {
 @media only screen 
   and (max-device-width: 480px) { 
 
-  body {
+  html, body {
     overflow: scroll;
   }
   

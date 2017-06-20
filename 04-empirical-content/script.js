@@ -21,11 +21,19 @@ function outputUpdate(vol) {
 	});
 
 	// auto scrolling
-	setTimeout(function(){ 
-		$('#scroller, body, html').clearQueue();
-		scrollTop = $("#scroller").scrollTop() + $( ".order" ).last().children().offset().top;
-		$('#scroller, body, html').animate({ scrollTop: scrollTop - 300 });
-	}, 50);
+	if ($(window).width() < 480) {
+		setTimeout(function(){ 
+			$('body, html').clearQueue();
+			scrollTop = $( ".order" ).last().children().offset().top;
+			$('body, html').animate({ scrollTop: scrollTop - 300 });
+		}, 50);
+	} else {
+		setTimeout(function(){ 
+			$('#scroller').clearQueue();
+			scrollTop = $("#scroller").scrollTop() + $( ".order" ).last().children().offset().top;
+			$('#scroller').animate({ scrollTop: scrollTop - 300 });
+		}, 50);	
+	}
 
 }
 
