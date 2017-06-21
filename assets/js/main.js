@@ -1,6 +1,13 @@
  $( document ).ready(function() {
 
-
+  // prevent more or less elastic scrolling on safari ios
+  document.addEventListener("touchmove", function(event){
+    event.preventDefault();
+  });
+  var scrollingDiv = document.getElementById('scroller');
+    scrollingDiv.addEventListener('touchmove', function(event){
+    event.stopPropagation();
+  });
 
   // function for the popup
   // When the user clicks on <div>, open the popup

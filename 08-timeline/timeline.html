@@ -101,7 +101,7 @@
         $(".ptwitter").css("display","none");
         $(".psocialmedia").css("display","none");
       
-        $( document ).click(function() {
+        $( document ).on('click touchstart', function() {
 
           setTimeout(function(){
           if ( $("#first").hasClass("is-selected") ) {
